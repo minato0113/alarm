@@ -6,4 +6,32 @@
 //  Copyright (c) 2015年 Taichi Takeuchi. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ViewController2: UIViewController {
+    
+    @IBOutlet var label:UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        let ud = NSUserDefaults.standardUserDefaults()
+        let result : AnyObject! = ud.objectForKey("id")
+        var time:NSTimeInterval = result as! NSTimeInterval
+        let date = NSDate(timeIntervalSince1970: time)
+        let formatter = NSDateFormatter()
+        formatter.dateFormat = "HH:mm"
+        let dateStr: String = formatter.stringFromDate(date)
+        label.text = dateStr
+
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+
+    
+
+    
+}
