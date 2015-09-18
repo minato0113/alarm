@@ -17,7 +17,7 @@ class ViewController2: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let ud = NSUserDefaults.standardUserDefaults()
         let result : AnyObject! = ud.objectForKey("id")
-        var time:NSTimeInterval = result as! NSTimeInterval
+        let time:NSTimeInterval = result as! NSTimeInterval
         let date = NSDate(timeIntervalSince1970: time)
         let formatter = NSDateFormatter()
         formatter.dateFormat = "HH:mm"

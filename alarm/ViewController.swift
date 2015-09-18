@@ -16,27 +16,26 @@ class ViewController: UIViewController {
     @IBOutlet var label2 : UILabel!
     var num:Int = 0
     var num2:Int = 0
+    
     var now :NSDate!
-    var checkTime:NSDate!
-    var maxNowResult:NSDate!
-    var maxTime:NSDate!
+
     var dateUnix:NSTimeInterval=0
     var dateUnix2:NSTimeInterval=0
-
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         myDatePicker.addTarget(self, action: "onDidChangeDate:", forControlEvents: .ValueChanged)
-
+        
     }
     
-//    func nowTime(){
-//        now = NSDate()
-//
-//        // Do any additional setup after loading the view, typically from a nib.
-//        myDatePicker.addTarget(self, action: "onDidChangeDate:", forControlEvents: .ValueChanged)
-//    }
+    //    func nowTime(){
+    //        now = NSDate()
+    //
+    //        // Do any additional setup after loading the view, typically from a nib.
+    //        myDatePicker.addTarget(self, action: "onDidChangeDate:", forControlEvents: .ValueChanged)
+    //    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -46,25 +45,26 @@ class ViewController: UIViewController {
     
     
     internal func onDidChangeDate(sender: UIDatePicker){
-
         
-        
-
         let myDateFormatter: NSDateFormatter = NSDateFormatter()
         let myDateFormatter1: NSDateFormatter = NSDateFormatter()
         
         myDateFormatter.dateFormat = "hh"
         myDateFormatter1.dateFormat = "mm"
         
-
+        
         let mySelectedDate: String = myDateFormatter.stringFromDate(sender.date)
         let mySelectedDate2: String = myDateFormatter1.stringFromDate(sender.date)
         
         
         label.text = mySelectedDate + ":" + mySelectedDate2
         
-        num = mySelectedDate.toInt()!+1
-        num2 = mySelectedDate2.toInt()!+30
+        num = Int(mySelectedDate)!+1
+        num2 = Int(mySelectedDate2)!+30
+        
+        dateUnix = sender.date.timeIntervalSince1970
+        dateUnix2 = dateUnix+90*60
+        
         
         if num2 >= 60{
             num2 = num2 - 60
@@ -78,45 +78,21 @@ class ViewController: UIViewController {
         }
         
         
-        dateUnix = sender.date.timeIntervalSince1970
-        dateUnix2 = dateUnix+90*60
         
-//        let hoge = NSDate(timeIntervalSince1970: dateUnix2)
-//        let formatter = NSDateFormatter()
-//        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-//        let dateStr: String = formatter.stringFromDate(hoge)
-//
-//        println(dateStr)
-        
-        
-
-/*
-        func checkLme (){
-            var i : Int=0
-            var j : Int=0
-            var maxNowResult : NSComparisonResult = .OrderedAscending
-            while maxNowResult == NSComparisonResult.OrderedAscending{
-                checkTime = NSDate(timeInterval: NSTimeInterval(i*90*60), sinceDate: now)
-                maxNowResult = checkTime!.compare(maxTime)
-            }
-            
-        }
-*/
-        //        println(dateUnix)
     }
     @IBAction func put() {
-        var config : NSTimeInterval=0
         
-        
-        
-        println(maxNowResult)
         now = NSDate()
         let nowUnix: NSTimeInterval? = now?.timeIntervalSince1970
-        println(nowUnix)
-        var roop = nowUnix!+90*60
-        let i = nowUnix
-        while (config<dateUnix){
+        var config : NSTimeInterval = nowUnix!
+        print(nowUnix)
+        
+        while config<dateUnix2 {
             config = config+90*60
+            if config>dateUnix {
+                break
+            }
+            
         }
         // 「ud」というインスタンスをつくる。
         let ud = NSUserDefaults.standardUserDefaults()
@@ -125,15 +101,26 @@ class ViewController: UIViewController {
         // キーidに「taro」という値を格納。（idは任意の文字列でok）
         ud.setObject(config, forKey: "id")
         
-
         self.performSegueWithIdentifier("toAlarmView", sender: nil)
         
         
+        let date = NSDate(timeIntervalSince1970: config)
+        
+        // NSDate型を日時文字列に変換するためのNSDateFormatterを生成
+        let formatter = NSDateFormatter()
+        formatter.dateFormat = "HH:mm"
+        
+        // NSDateFormatterを使ってNSDate型 "date" を日時文字列 "dateString" に変換
+        let dateString: String = formatter.stringFromDate(date)
+        
+        
+        print(dateUnix2)
+        
     }
-
-
     
-
+    
+    
+    
     
 }
 
