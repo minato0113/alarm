@@ -14,29 +14,28 @@ class ViewController: UIViewController {
     @IBOutlet var myDatePicker:UIDatePicker!
     @IBOutlet var label : UILabel!
     @IBOutlet var label2 : UILabel!
-    var num:Int = 0
-    var num2:Int = 0
+    var num: Int = 0
+    var num2: Int = 0
     
-    var now :NSDate!
+    var now: NSDate!
 
-    var dateUnix:NSTimeInterval=0
-    var dateUnix2:NSTimeInterval=0
+    var dateUnix: NSTimeInterval=0
+    var dateUnix2: NSTimeInterval=0
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        myDatePicker.addTarget(self, action: "onDidChangeDate:", forControlEvents: .ValueChanged)
         
+        // FIXME: AM/PM表記を削除
+        let locale = NSLocale(localeIdentifier: "ja_JP")
+        myDatePicker.locale = locale
+        
+        // FIXME: 現在より前の時間が指定できないように設定
+        myDatePicker.minimumDate = NSDate()
+        myDatePicker.addTarget(self, action: "onDidChangeDate:", forControlEvents: .ValueChanged)
     }
-    
-    //    func nowTime(){
-    //        now = NSDate()
-    //
-    //        // Do any additional setup after loading the view, typically from a nib.
-    //        myDatePicker.addTarget(self, action: "onDidChangeDate:", forControlEvents: .ValueChanged)
-    //    }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -52,10 +51,8 @@ class ViewController: UIViewController {
         myDateFormatter.dateFormat = "hh"
         myDateFormatter1.dateFormat = "mm"
         
-        
         let mySelectedDate: String = myDateFormatter.stringFromDate(sender.date)
         let mySelectedDate2: String = myDateFormatter1.stringFromDate(sender.date)
-        
         
         label.text = mySelectedDate + ":" + mySelectedDate2
         
@@ -66,7 +63,7 @@ class ViewController: UIViewController {
         dateUnix2 = dateUnix+90*60
         
         
-        if num2 >= 60{
+        if num2 >= 60 {
             num2 = num2 - 60
             num = num + 1
         }
@@ -76,10 +73,8 @@ class ViewController: UIViewController {
         if num2 <= 9{
             label2.text = "\(num):0\(num2)"
         }
-        
-        
-        
     }
+    
     @IBAction func put() {
         
         now = NSDate()
@@ -94,6 +89,7 @@ class ViewController: UIViewController {
             }
             
         }
+        
         // 「ud」というインスタンスをつくる。
         let ud = NSUserDefaults.standardUserDefaults()
         // キーがidの値をとります。
@@ -112,15 +108,8 @@ class ViewController: UIViewController {
         
         // NSDateFormatterを使ってNSDate型 "date" を日時文字列 "dateString" に変換
         let dateString: String = formatter.stringFromDate(date)
-        
-        
         print(dateUnix2)
-        
     }
-    
-    
-    
-    
     
 }
 
