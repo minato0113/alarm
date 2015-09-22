@@ -3,3 +3,4 @@
 //
 
 #import <FlatUIKit/FlatUIKit.h>
+#import "BEMAnalogClockView.h"

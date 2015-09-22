@@ -10,7 +10,6 @@
 		524632461B8EA01D001A1B6F /* IMG_4088.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632451B8EA01D001A1B6F /* IMG_4088.png */; };
 		5246324C1B8EAD24001A1B6F /* app_icon_lemAlerm.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632491B8EAD24001A1B6F /* app_icon_lemAlerm.png */; };
 		5246324D1B8EAD24001A1B6F /* app_icon_lemAlerm_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246324A1B8EAD24001A1B6F /* app_icon_lemAlerm_1024.png */; };
-		524632651B8EAD6E001A1B6F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 524632501B8EAD6E001A1B6F /* Contents.json */; };
 		524632661B8EAD6E001A1B6F /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632511B8EAD6E001A1B6F /* Icon-40.png */; };
 		524632671B8EAD6E001A1B6F /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632521B8EAD6E001A1B6F /* Icon-40@2x.png */; };
 		524632681B8EAD6E001A1B6F /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632531B8EAD6E001A1B6F /* Icon-40@3x.png */; };
@@ -38,6 +37,7 @@
 		52FB4C891B8D4479009B61FA /* alarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB4C881B8D4479009B61FA /* alarmTests.swift */; };
 		52FB4C931B8D7FE8009B61FA /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB4C921B8D7FE8009B61FA /* ViewController2.swift */; };
 		75625230039656289EE27C2F /* libPods-alarm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8693B5D0B6AFBF9B0433645 /* libPods-alarm.a */; };
+		7AE7A2481BB1B22A003B66F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7A2471BB1B22A003B66F8 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,6 @@
 		524632451B8EA01D001A1B6F /* IMG_4088.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4088.png; sourceTree = "<group>"; };
 		524632491B8EAD24001A1B6F /* app_icon_lemAlerm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_lemAlerm.png; sourceTree = "<group>"; };
 		5246324A1B8EAD24001A1B6F /* app_icon_lemAlerm_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_lemAlerm_1024.png; sourceTree = "<group>"; };
-		524632501B8EAD6E001A1B6F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		524632511B8EAD6E001A1B6F /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
 		524632521B8EAD6E001A1B6F /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
 		524632531B8EAD6E001A1B6F /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
@@ -85,6 +84,7 @@
 		52FB4C871B8D4479009B61FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52FB4C881B8D4479009B61FA /* alarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmTests.swift; sourceTree = "<group>"; };
 		52FB4C921B8D7FE8009B61FA /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		7AE7A2471BB1B22A003B66F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7AED886D1BB1742E00C1863E /* alarm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "alarm-Bridging-Header.h"; sourceTree = "<group>"; };
 		915D8F15CFB131DDB7F0290C /* Pods-alarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm.release.xcconfig"; path = "Pods/Target Support Files/Pods-alarm/Pods-alarm.release.xcconfig"; sourceTree = "<group>"; };
 		B8693B5D0B6AFBF9B0433645 /* libPods-alarm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alarm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,7 +149,6 @@
 		5246324F1B8EAD6E001A1B6F /* AppIcon.appiconset */ = {
 			isa = PBXGroup;
 			children = (
-				524632501B8EAD6E001A1B6F /* Contents.json */,
 				524632511B8EAD6E001A1B6F /* Icon-40.png */,
 				524632521B8EAD6E001A1B6F /* Icon-40@2x.png */,
 				524632531B8EAD6E001A1B6F /* Icon-40@3x.png */,
@@ -174,6 +173,7 @@
 		52FB4C641B8D4479009B61FA = {
 			isa = PBXGroup;
 			children = (
+				7AE7A2471BB1B22A003B66F8 /* Default-568h@2x.png */,
 				52FB4C6F1B8D4479009B61FA /* alarm */,
 				52FB4C851B8D4479009B61FA /* alarmTests */,
 				52FB4C6E1B8D4479009B61FA /* Products */,
@@ -333,8 +333,8 @@
 				52FB4C7D1B8D4479009B61FA /* LaunchScreen.xib in Resources */,
 				5246326E1B8EAD6E001A1B6F /* Icon-Small@2x.png in Resources */,
 				5246326B1B8EAD6E001A1B6F /* Icon-76.png in Resources */,
-				524632651B8EAD6E001A1B6F /* Contents.json in Resources */,
 				524632741B8EAD6E001A1B6F /* Icon-Small-50@2x.png in Resources */,
+				7AE7A2481BB1B22A003B66F8 /* Default-568h@2x.png in Resources */,
 				5246324C1B8EAD24001A1B6F /* app_icon_lemAlerm.png in Resources */,
 				524632751B8EAD6E001A1B6F /* Icon.png in Resources */,
 				52FB4C7A1B8D4479009B61FA /* Images.xcassets in Resources */,

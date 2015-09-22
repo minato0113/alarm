@@ -3,6 +3,7 @@
 
 target 'alarm' do
 pod 'FlatUIKit'
+pod 'BEMAnalogClock'
 end
 
 target 'alarmTests' do

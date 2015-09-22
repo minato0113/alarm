@@ -49,10 +49,10 @@ class ViewController: UIViewController {
     
     func setUpNavigationBar() {
         self.navigationController?.navigationBar.barTintColor = UIColor.turquoiseColor()
-        self.navigationController?.navigationBar
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
     }
     
-    func setUpButton() {
+    private func setUpButton() {
         sleepButton.buttonColor = UIColor.turquoiseColor();
         sleepButton.shadowColor = UIColor.greenSeaColor();
         sleepButton.shadowHeight = 3.0;
@@ -102,9 +102,9 @@ class ViewController: UIViewController {
         var config : NSTimeInterval = nowUnix!
         print(nowUnix)
         
-        while config<dateUnix2 {
-            config = config+90*60
-            if config>dateUnix {
+        while config < dateUnix2 {
+            config = config + 90 * 60
+            if config > dateUnix {
                 break
             }
             
@@ -113,7 +113,9 @@ class ViewController: UIViewController {
         // 「ud」というインスタンスをつくる。
         let ud = NSUserDefaults.standardUserDefaults()
         // キーがidの値をとります。
-        var udId : AnyObject! = ud.objectForKey("id")
+        let udId : AnyObject! = ud.objectForKey("id")
+        print(udId)
+        
         // キーidに「taro」という値を格納。（idは任意の文字列でok）
         ud.setObject(config, forKey: "id")
         
@@ -128,7 +130,7 @@ class ViewController: UIViewController {
         
         // NSDateFormatterを使ってNSDate型 "date" を日時文字列 "dateString" に変換
         let dateString: String = formatter.stringFromDate(date)
-        print(dateUnix2)
+        print(dateString)
     }
     
 }
