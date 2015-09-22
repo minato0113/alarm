@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet var myDatePicker:UIDatePicker!
     @IBOutlet var label : UILabel!
     @IBOutlet var label2 : UILabel!
+    @IBOutlet var baseView: UIView!
+    @IBOutlet var sleepButton: FUIButton!
     var num: Int = 0
     var num2: Int = 0
     
@@ -34,6 +36,10 @@ class ViewController: UIViewController {
         // FIXME: 現在より前の時間が指定できないように設定
         myDatePicker.minimumDate = NSDate()
         myDatePicker.addTarget(self, action: "onDidChangeDate:", forControlEvents: .ValueChanged)
+        myDatePicker.backgroundColor = UIColor.whiteColor()
+        
+        self.setUpNavigationBar()
+        self.setUpButton()
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,7 +47,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func setUpNavigationBar() {
+        self.navigationController?.navigationBar.barTintColor = UIColor.turquoiseColor()
+        self.navigationController?.navigationBar
+    }
     
+    func setUpButton() {
+        sleepButton.buttonColor = UIColor.turquoiseColor();
+        sleepButton.shadowColor = UIColor.greenSeaColor();
+        sleepButton.shadowHeight = 3.0;
+        sleepButton.cornerRadius = 6.0;
+        sleepButton.titleLabel!.font = UIFont.boldFlatFontOfSize(16)
+        sleepButton.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Normal)
+        sleepButton.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Highlighted)
+        label.sendSubviewToBack(baseView)
+    }
     
     internal func onDidChangeDate(sender: UIDatePicker){
         
