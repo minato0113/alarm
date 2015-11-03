@@ -63,16 +63,17 @@ class ViewController: UIViewController {
         label.sendSubviewToBack(baseView)
     }
     
+    // TODO: ラベルに表示される時間を24時間表記に
     internal func onDidChangeDate(sender: UIDatePicker){
         
         let myDateFormatter: NSDateFormatter = NSDateFormatter()
         let myDateFormatter1: NSDateFormatter = NSDateFormatter()
         
-        myDateFormatter.dateFormat = "hh"
-        myDateFormatter1.dateFormat = "mm"
+        myDateFormatter.dateFormat = "HH"
+        myDateFormatter1.dateFormat = "MM"
         
         
-//        myDateFormatter.locale = NSLocale(localeIdentifier: "en_US_POSIX")
+        myDateFormatter.locale = NSLocale(localeIdentifier: "ja_JP")
         
         let mySelectedDate: String = myDateFormatter.stringFromDate(sender.date)
         let mySelectedDate2: String = myDateFormatter1.stringFromDate(sender.date)
