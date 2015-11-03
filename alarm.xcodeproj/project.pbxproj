@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524632461B8EA01D001A1B6F /* IMG_4088.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632451B8EA01D001A1B6F /* IMG_4088.png */; };
+		5246324C1B8EAD24001A1B6F /* app_icon_lemAlerm.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632491B8EAD24001A1B6F /* app_icon_lemAlerm.png */; };
+		5246324D1B8EAD24001A1B6F /* app_icon_lemAlerm_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246324A1B8EAD24001A1B6F /* app_icon_lemAlerm_1024.png */; };
+		524632661B8EAD6E001A1B6F /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632511B8EAD6E001A1B6F /* Icon-40.png */; };
+		524632671B8EAD6E001A1B6F /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632521B8EAD6E001A1B6F /* Icon-40@2x.png */; };
+		524632681B8EAD6E001A1B6F /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632531B8EAD6E001A1B6F /* Icon-40@3x.png */; };
+		524632691B8EAD6E001A1B6F /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632541B8EAD6E001A1B6F /* Icon-60@2x.png */; };
+		5246326A1B8EAD6E001A1B6F /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632551B8EAD6E001A1B6F /* Icon-60@3x.png */; };
+		5246326B1B8EAD6E001A1B6F /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632561B8EAD6E001A1B6F /* Icon-76.png */; };
+		5246326C1B8EAD6E001A1B6F /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632571B8EAD6E001A1B6F /* Icon-76@2x.png */; };
+		5246326D1B8EAD6E001A1B6F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632581B8EAD6E001A1B6F /* Icon-Small.png */; };
+		5246326E1B8EAD6E001A1B6F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632591B8EAD6E001A1B6F /* Icon-Small@2x.png */; };
+		5246326F1B8EAD6E001A1B6F /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246325A1B8EAD6E001A1B6F /* Icon-Small@3x.png */; };
+		524632701B8EAD6E001A1B6F /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246325B1B8EAD6E001A1B6F /* Icon-60.png */; };
+		524632711B8EAD6E001A1B6F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246325C1B8EAD6E001A1B6F /* Icon-72.png */; };
+		524632721B8EAD6E001A1B6F /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246325D1B8EAD6E001A1B6F /* Icon-72@2x.png */; };
+		524632731B8EAD6E001A1B6F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246325E1B8EAD6E001A1B6F /* Icon-Small-50.png */; };
+		524632741B8EAD6E001A1B6F /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5246325F1B8EAD6E001A1B6F /* Icon-Small-50@2x.png */; };
+		524632751B8EAD6E001A1B6F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632601B8EAD6E001A1B6F /* Icon.png */; };
+		524632761B8EAD6E001A1B6F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632611B8EAD6E001A1B6F /* Icon@2x.png */; };
+		524632771B8EAD6E001A1B6F /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632621B8EAD6E001A1B6F /* iTunesArtwork.png */; };
+		524632781B8EAD6E001A1B6F /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524632631B8EAD6E001A1B6F /* iTunesArtwork@2x.png */; };
+		52E176481BDF8F1F00D6C2E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E176421BDF8F1F00D6C2E1 /* Default-568h@2x.png */; };
+		52E176491BDF8F1F00D6C2E1 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E176431BDF8F1F00D6C2E1 /* Default-667h@2x.png */; };
+		52E1764A1BDF8F1F00D6C2E1 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E176441BDF8F1F00D6C2E1 /* Default-736h@3x.png */; };
+		52E1764C1BDF8F1F00D6C2E1 /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E176461BDF8F1F00D6C2E1 /* StoryboardHelper.swift */; };
+		52E1764E1BDF91D300D6C2E1 /* 3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E1764D1BDF91D300D6C2E1 /* 3.5inch.storyboard */; };
+		52FB4C731B8D4479009B61FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB4C721B8D4479009B61FA /* AppDelegate.swift */; };
+		52FB4C751B8D4479009B61FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB4C741B8D4479009B61FA /* ViewController.swift */; };
+		52FB4C781B8D4479009B61FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB4C761B8D4479009B61FA /* Main.storyboard */; };
+		52FB4C7A1B8D4479009B61FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FB4C791B8D4479009B61FA /* Images.xcassets */; };
+		52FB4C891B8D4479009B61FA /* alarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB4C881B8D4479009B61FA /* alarmTests.swift */; };
+		52FB4C931B8D7FE8009B61FA /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB4C921B8D7FE8009B61FA /* ViewController2.swift */; };
+		75625230039656289EE27C2F /* libPods-alarm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8693B5D0B6AFBF9B0433645 /* libPods-alarm.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52FB4C831B8D4479009B61FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FB4C651B8D4479009B61FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FB4C6C1B8D4479009B61FA;
+			remoteInfo = alarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		524632451B8EA01D001A1B6F /* IMG_4088.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4088.png; sourceTree = "<group>"; };
+		524632491B8EAD24001A1B6F /* app_icon_lemAlerm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_lemAlerm.png; sourceTree = "<group>"; };
+		5246324A1B8EAD24001A1B6F /* app_icon_lemAlerm_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_lemAlerm_1024.png; sourceTree = "<group>"; };
+		524632511B8EAD6E001A1B6F /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		524632521B8EAD6E001A1B6F /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		524632531B8EAD6E001A1B6F /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		524632541B8EAD6E001A1B6F /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		524632551B8EAD6E001A1B6F /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		524632561B8EAD6E001A1B6F /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		524632571B8EAD6E001A1B6F /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		524632581B8EAD6E001A1B6F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		524632591B8EAD6E001A1B6F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		5246325A1B8EAD6E001A1B6F /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		5246325B1B8EAD6E001A1B6F /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		5246325C1B8EAD6E001A1B6F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		5246325D1B8EAD6E001A1B6F /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		5246325E1B8EAD6E001A1B6F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		5246325F1B8EAD6E001A1B6F /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		524632601B8EAD6E001A1B6F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		524632611B8EAD6E001A1B6F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		524632621B8EAD6E001A1B6F /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		524632631B8EAD6E001A1B6F /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		52E176421BDF8F1F00D6C2E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		52E176431BDF8F1F00D6C2E1 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		52E176441BDF8F1F00D6C2E1 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		52E176461BDF8F1F00D6C2E1 /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		52E1764D1BDF91D300D6C2E1 /* 3.5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3.5inch.storyboard; sourceTree = "<group>"; };
+		52FB4C6D1B8D4479009B61FA /* alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB4C711B8D4479009B61FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB4C721B8D4479009B61FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52FB4C741B8D4479009B61FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52FB4C771B8D4479009B61FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52FB4C791B8D4479009B61FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52FB4C821B8D4479009B61FA /* alarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB4C871B8D4479009B61FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB4C881B8D4479009B61FA /* alarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmTests.swift; sourceTree = "<group>"; };
+		52FB4C921B8D7FE8009B61FA /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		7AED886D1BB1742E00C1863E /* alarm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "alarm-Bridging-Header.h"; sourceTree = "<group>"; };
+		915D8F15CFB131DDB7F0290C /* Pods-alarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm.release.xcconfig"; path = "Pods/Target Support Files/Pods-alarm/Pods-alarm.release.xcconfig"; sourceTree = "<group>"; };
+		B8693B5D0B6AFBF9B0433645 /* libPods-alarm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alarm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1998FD4D300CE681D8D389 /* Pods-alarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alarm/Pods-alarm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FB4C6A1B8D4479009B61FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75625230039656289EE27C2F /* libPods-alarm.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB4C7F1B8D4479009B61FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B76640A17BCDC7C4C97687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA1998FD4D300CE681D8D389 /* Pods-alarm.debug.xcconfig */,
+				915D8F15CFB131DDB7F0290C /* Pods-alarm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		524632471B8EAD24001A1B6F /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				524632491B8EAD24001A1B6F /* app_icon_lemAlerm.png */,
+				5246324A1B8EAD24001A1B6F /* app_icon_lemAlerm_1024.png */,
+				5246324E1B8EAD6E001A1B6F /* ios */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		5246324E1B8EAD6E001A1B6F /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				5246324F1B8EAD6E001A1B6F /* AppIcon.appiconset */,
+				5246325B1B8EAD6E001A1B6F /* Icon-60.png */,
+				5246325C1B8EAD6E001A1B6F /* Icon-72.png */,
+				5246325D1B8EAD6E001A1B6F /* Icon-72@2x.png */,
+				5246325E1B8EAD6E001A1B6F /* Icon-Small-50.png */,
+				5246325F1B8EAD6E001A1B6F /* Icon-Small-50@2x.png */,
+				524632601B8EAD6E001A1B6F /* Icon.png */,
+				524632611B8EAD6E001A1B6F /* Icon@2x.png */,
+				524632621B8EAD6E001A1B6F /* iTunesArtwork.png */,
+				524632631B8EAD6E001A1B6F /* iTunesArtwork@2x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		5246324F1B8EAD6E001A1B6F /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				524632511B8EAD6E001A1B6F /* Icon-40.png */,
+				524632521B8EAD6E001A1B6F /* Icon-40@2x.png */,
+				524632531B8EAD6E001A1B6F /* Icon-40@3x.png */,
+				524632541B8EAD6E001A1B6F /* Icon-60@2x.png */,
+				524632551B8EAD6E001A1B6F /* Icon-60@3x.png */,
+				524632561B8EAD6E001A1B6F /* Icon-76.png */,
+				524632571B8EAD6E001A1B6F /* Icon-76@2x.png */,
+				524632581B8EAD6E001A1B6F /* Icon-Small.png */,
+				524632591B8EAD6E001A1B6F /* Icon-Small@2x.png */,
+				5246325A1B8EAD6E001A1B6F /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		5246327A1B8EAF36001A1B6F /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		52E1763F1BDF8F1F00D6C2E1 /* StoryboardHelper-master */ = {
+			isa = PBXGroup;
+			children = (
+				52E176411BDF8F1F00D6C2E1 /* Defaults */,
+				52E176461BDF8F1F00D6C2E1 /* StoryboardHelper.swift */,
+			);
+			path = "StoryboardHelper-master";
+			sourceTree = "<group>";
+		};
+		52E176411BDF8F1F00D6C2E1 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				52E176421BDF8F1F00D6C2E1 /* Default-568h@2x.png */,
+				52E176431BDF8F1F00D6C2E1 /* Default-667h@2x.png */,
+				52E176441BDF8F1F00D6C2E1 /* Default-736h@3x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		52FB4C641B8D4479009B61FA = {
+			isa = PBXGroup;
+			children = (
+				52FB4C6F1B8D4479009B61FA /* alarm */,
+				52FB4C851B8D4479009B61FA /* alarmTests */,
+				52FB4C6E1B8D4479009B61FA /* Products */,
+				24B76640A17BCDC7C4C97687 /* Pods */,
+				F5DEC0583D2E3FF2CC3E82C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52FB4C6E1B8D4479009B61FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FB4C6D1B8D4479009B61FA /* alarm.app */,
+				52FB4C821B8D4479009B61FA /* alarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FB4C6F1B8D4479009B61FA /* alarm */ = {
+			isa = PBXGroup;
+			children = (
+				52FB4C721B8D4479009B61FA /* AppDelegate.swift */,
+				52FB4C741B8D4479009B61FA /* ViewController.swift */,
+				52FB4C921B8D7FE8009B61FA /* ViewController2.swift */,
+				52FB4C761B8D4479009B61FA /* Main.storyboard */,
+				52E1764D1BDF91D300D6C2E1 /* 3.5inch.storyboard */,
+				524632451B8EA01D001A1B6F /* IMG_4088.png */,
+				52E1763F1BDF8F1F00D6C2E1 /* StoryboardHelper-master */,
+				5246327A1B8EAF36001A1B6F /* AppIcon.appiconset */,
+				524632471B8EAD24001A1B6F /* icon */,
+				52FB4C791B8D4479009B61FA /* Images.xcassets */,
+				52FB4C701B8D4479009B61FA /* Supporting Files */,
+				7AED886D1BB1742E00C1863E /* alarm-Bridging-Header.h */,
+			);
+			path = alarm;
+			sourceTree = "<group>";
+		};
+		52FB4C701B8D4479009B61FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52FB4C711B8D4479009B61FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52FB4C851B8D4479009B61FA /* alarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FB4C881B8D4479009B61FA /* alarmTests.swift */,
+				52FB4C861B8D4479009B61FA /* Supporting Files */,
+			);
+			path = alarmTests;
+			sourceTree = "<group>";
+		};
+		52FB4C861B8D4479009B61FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52FB4C871B8D4479009B61FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5DEC0583D2E3FF2CC3E82C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8693B5D0B6AFBF9B0433645 /* libPods-alarm.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FB4C6C1B8D4479009B61FA /* alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FB4C8C1B8D4479009B61FA /* Build configuration list for PBXNativeTarget "alarm" */;
+			buildPhases = (
+				F6DDFB8AF7688EFEB20B093F /* Check Pods Manifest.lock */,
+				52FB4C691B8D4479009B61FA /* Sources */,
+				52FB4C6A1B8D4479009B61FA /* Frameworks */,
+				52FB4C6B1B8D4479009B61FA /* Resources */,
+				5B9D22252BBD8D51AE9FBA1A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alarm;
+			productName = alarm;
+			productReference = 52FB4C6D1B8D4479009B61FA /* alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52FB4C811B8D4479009B61FA /* alarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FB4C8F1B8D4479009B61FA /* Build configuration list for PBXNativeTarget "alarmTests" */;
+			buildPhases = (
+				52FB4C7E1B8D4479009B61FA /* Sources */,
+				52FB4C7F1B8D4479009B61FA /* Frameworks */,
+				52FB4C801B8D4479009B61FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FB4C841B8D4479009B61FA /* PBXTargetDependency */,
+			);
+			name = alarmTests;
+			productName = alarmTests;
+			productReference = 52FB4C821B8D4479009B61FA /* alarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FB4C651B8D4479009B61FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Taichi Takeuchi";
+				TargetAttributes = {
+					52FB4C6C1B8D4479009B61FA = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = NKK2WLWAMM;
+					};
+					52FB4C811B8D4479009B61FA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52FB4C6C1B8D4479009B61FA;
+					};
+				};
+			};
+			buildConfigurationList = 52FB4C681B8D4479009B61FA /* Build configuration list for PBXProject "alarm" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FB4C641B8D4479009B61FA;
+			productRefGroup = 52FB4C6E1B8D4479009B61FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FB4C6C1B8D4479009B61FA /* alarm */,
+				52FB4C811B8D4479009B61FA /* alarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FB4C6B1B8D4479009B61FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524632701B8EAD6E001A1B6F /* Icon-60.png in Resources */,
+				524632711B8EAD6E001A1B6F /* Icon-72.png in Resources */,
+				5246326D1B8EAD6E001A1B6F /* Icon-Small.png in Resources */,
+				52FB4C781B8D4479009B61FA /* Main.storyboard in Resources */,
+				5246324D1B8EAD24001A1B6F /* app_icon_lemAlerm_1024.png in Resources */,
+				52E176481BDF8F1F00D6C2E1 /* Default-568h@2x.png in Resources */,
+				5246326E1B8EAD6E001A1B6F /* Icon-Small@2x.png in Resources */,
+				5246326B1B8EAD6E001A1B6F /* Icon-76.png in Resources */,
+				524632741B8EAD6E001A1B6F /* Icon-Small-50@2x.png in Resources */,
+				5246324C1B8EAD24001A1B6F /* app_icon_lemAlerm.png in Resources */,
+				524632751B8EAD6E001A1B6F /* Icon.png in Resources */,
+				52FB4C7A1B8D4479009B61FA /* Images.xcassets in Resources */,
+				524632461B8EA01D001A1B6F /* IMG_4088.png in Resources */,
+				524632731B8EAD6E001A1B6F /* Icon-Small-50.png in Resources */,
+				52E1764A1BDF8F1F00D6C2E1 /* Default-736h@3x.png in Resources */,
+				524632661B8EAD6E001A1B6F /* Icon-40.png in Resources */,
+				524632721B8EAD6E001A1B6F /* Icon-72@2x.png in Resources */,
+				52E1764E1BDF91D300D6C2E1 /* 3.5inch.storyboard in Resources */,
+				5246326F1B8EAD6E001A1B6F /* Icon-Small@3x.png in Resources */,
+				524632761B8EAD6E001A1B6F /* Icon@2x.png in Resources */,
+				52E176491BDF8F1F00D6C2E1 /* Default-667h@2x.png in Resources */,
+				524632771B8EAD6E001A1B6F /* iTunesArtwork.png in Resources */,
+				5246326A1B8EAD6E001A1B6F /* Icon-60@3x.png in Resources */,
+				524632781B8EAD6E001A1B6F /* iTunesArtwork@2x.png in Resources */,
+				524632671B8EAD6E001A1B6F /* Icon-40@2x.png in Resources */,
+				524632681B8EAD6E001A1B6F /* Icon-40@3x.png in Resources */,
+				5246326C1B8EAD6E001A1B6F /* Icon-76@2x.png in Resources */,
+				524632691B8EAD6E001A1B6F /* Icon-60@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB4C801B8D4479009B61FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B9D22252BBD8D51AE9FBA1A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alarm/Pods-alarm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6DDFB8AF7688EFEB20B093F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FB4C691B8D4479009B61FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB4C751B8D4479009B61FA /* ViewController.swift in Sources */,
+				52FB4C731B8D4479009B61FA /* AppDelegate.swift in Sources */,
+				52E1764C1BDF8F1F00D6C2E1 /* StoryboardHelper.swift in Sources */,
+				52FB4C931B8D7FE8009B61FA /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB4C7E1B8D4479009B61FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB4C891B8D4479009B61FA /* alarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52FB4C841B8D4479009B61FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FB4C6C1B8D4479009B61FA /* alarm */;
+			targetProxy = 52FB4C831B8D4479009B61FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52FB4C761B8D4479009B61FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FB4C771B8D4479009B61FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52FB4C8A1B8D4479009B61FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Taichi Takeuchi (NKK2WLWAMM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Taichi Takeuchi (NKK2WLWAMM)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "25ec910c-ac2a-4802-ab23-9f5623a43c20";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FB4C8B1B8D4479009B61FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Taichi Takeuchi (NKK2WLWAMM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Taichi Takeuchi (NKK2WLWAMM)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "25ec910c-ac2a-4802-ab23-9f5623a43c20";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FB4C8D1B8D4479009B61FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1998FD4D300CE681D8D389 /* Pods-alarm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Taichi Takeuchi (NKK2WLWAMM)";
+				INFOPLIST_FILE = alarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "25ec910c-ac2a-4802-ab23-9f5623a43c20";
+				SWIFT_OBJC_BRIDGING_HEADER = "alarm/alarm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52FB4C8E1B8D4479009B61FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915D8F15CFB131DDB7F0290C /* Pods-alarm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Taichi Takeuchi (NKK2WLWAMM)";
+				INFOPLIST_FILE = alarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "25ec910c-ac2a-4802-ab23-9f5623a43c20";
+				SWIFT_OBJC_BRIDGING_HEADER = "alarm/alarm-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		52FB4C901B8D4479009B61FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = alarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alarm.app/alarm";
+			};
+			name = Debug;
+		};
+		52FB4C911B8D4479009B61FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = alarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alarm.app/alarm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FB4C681B8D4479009B61FA /* Build configuration list for PBXProject "alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB4C8A1B8D4479009B61FA /* Debug */,
+				52FB4C8B1B8D4479009B61FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FB4C8C1B8D4479009B61FA /* Build configuration list for PBXNativeTarget "alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB4C8D1B8D4479009B61FA /* Debug */,
+				52FB4C8E1B8D4479009B61FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FB4C8F1B8D4479009B61FA /* Build configuration list for PBXNativeTarget "alarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB4C901B8D4479009B61FA /* Debug */,
+				52FB4C911B8D4479009B61FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52FB4C651B8D4479009B61FA /* Project object */;
+}
